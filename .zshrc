@@ -70,7 +70,7 @@ zstyle ':vcs_info:git:*' formats '%F{255}on%f %F{147} %b%f %F{9}%m%f%F{208}%u
 zstyle ':vcs_info:*' unstagedstr '🟨'
 # Default 
 # zstyle ':vcs_info:*' unstagedstr 'M'
-zstyle ':vcs_info:*' stagedstr '🟩'
+zstyle ':vcs_info:*' stagedstr '✅'
 zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 
 +vi-git-untracked() {
