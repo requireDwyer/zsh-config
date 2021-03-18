@@ -128,4 +128,4 @@ alias lsla='lsd -la --group-dirs first'
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/.config/zsh/zsh-you-should-use.zsh
+source $HOME/.config/zsh/plug-ins/zsh-you-should-use.zsh
