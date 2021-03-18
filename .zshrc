@@ -1,7 +1,7 @@
 # ----- GENERAL -----
 source $HOME/.config/zsh/general.zsh
 
-# ----- PROMPT START -----
+# ----- PROMPT -----
 source $HOME/.config/zsh/prompt/prompt.zsh
 
 # ----- ALIASES ------
