@@ -2,7 +2,7 @@
 source $HOME/.config/zsh/general.zsh
 
 # ----- PROMPT -----
-source $HOME/.config/zsh/prompt/prompt.zsh
+source $HOME/.config/zsh/prompt/myPrompt.zsh
 
 # ----- ALIASES ------
 source $HOME/.config/zsh/aliases/git.zsh
