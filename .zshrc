@@ -92,6 +92,8 @@ PROMPT='[%f%F{204}${PWD/#$HOME/~}%f%F{255}]%f ${vcs_info_msg_0_}${NEWLINE}🚀 %
 
 # ----- ALIAS START -----
 
+source $HOME/.config/zsh/aliases/git.zsh
+
 # neovim
 alias e='nvim'
 
