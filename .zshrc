@@ -90,13 +90,10 @@ PROMPT='[%f%F{204}${PWD/#$HOME/~}%f%F{255}]%f ${vcs_info_msg_0_}${NEWLINE}🚀 %
 # Below Line is default prompt
 # PROMPT='%F{213}%n%f %F{255}at%f %F{177}%m%f %F{255}in [%f%F{204}${PWD/#$HOME/~}%f%F{255}]%f ${vcs_info_msg_0_}${NEWLINE}🚀 %F{204}❯%f '
 
-# ----- ALIAS START -----
-
+# ----- ALIASES ------
 source $HOME/.config/zsh/aliases/git.zsh
 source $HOME/.config/zsh/aliases/general.zsh
 
-
-# Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/.config/zsh/plug-ins/zsh-you-should-use.zsh
+# ----- Plug-ins -----
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #Load zsh-syntax-highlighting; should be last.
+source $HOME/.config/zsh/plug-ins/zsh-you-should-use.zsh # source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
