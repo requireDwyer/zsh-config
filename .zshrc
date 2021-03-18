@@ -93,14 +93,7 @@ PROMPT='[%f%F{204}${PWD/#$HOME/~}%f%F{255}]%f ${vcs_info_msg_0_}${NEWLINE}🚀 %
 # ----- ALIAS START -----
 
 source $HOME/.config/zsh/aliases/git.zsh
-
-# neovim
-alias e='nvim'
-
-# Change ls to lsd 
-alias ls='lsd --group-dirs first'
-alias lsl='lsd -l --group-dirs first'
-alias lsla='lsd -la --group-dirs first'
+source $HOME/.config/zsh/aliases/general.zsh
 
 
 # Load zsh-syntax-highlighting; should be last.
