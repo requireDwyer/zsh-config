@@ -5,7 +5,7 @@ export ZSH="/home/aidan/.oh-my-zsh"
 source $HOME/.config/zsh/prompt/spaceship.zsh
 
 # --- PLUG-INS ---
-plugins=()
+plugins=( colored-man-pages )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -15,5 +15,5 @@ source $HOME/.config/zsh/general.zsh
 source $HOME/.config/zsh/aliases/git.zsh
 source $HOME/.config/zsh/aliases/general.zsh
 # ----- Plug-ins -----
-source $HOME/.config/zsh/plug-ins/zsh-you-should-use.zsh # source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/plug-ins/zsh-you-should-use.zsh 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #Load zsh-syntax-highlighting; should be last.
