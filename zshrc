@@ -5,7 +5,7 @@ export ZSH="/home/aidan/.oh-my-zsh"
 source $HOME/.config/zsh/prompt/spaceship.zsh
 
 # --- PLUG-INS ---
-plugins=(git)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
